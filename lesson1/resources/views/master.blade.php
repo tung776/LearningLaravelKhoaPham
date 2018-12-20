@@ -31,8 +31,12 @@
 <body>
     <div id="wrapper">
         <div id="header">header</div>
-        <div id="content">content</div>
-        <div id="footer">footer</div>
+        <div id="content">
+            @yield('content')
+        </div>
+        <div id="footer">
+            @yield('footer-content')
+        </div>
     </div>
 </body>
 </html>
