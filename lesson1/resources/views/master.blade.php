@@ -30,8 +30,10 @@
 </head>
 <body>
     <div id="wrapper">
+        
         <div id="header">header</div>
         <div id="content">
+            @include('marquee')
             @yield('content')
         </div>
         <div id="footer">
